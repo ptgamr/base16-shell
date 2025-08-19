@@ -1,0 +1,30 @@
+{
+  "name": "base16-builder-node",
+  "version": "1.0.0",
+  "description": "Base16 Builder - Node.js implementation for building base16 colorschemes",
+  "main": "src/index.js",
+  "bin": {
+    "base16-builder": "./src/cli.js"
+  },
+  "scripts": {
+    "build": "node src/cli.js",
+    "build-all": "node src/build-all.js",
+    "test": "node src/test.js"
+  },
+  "keywords": [
+    "base16",
+    "colorscheme",
+    "theme",
+    "builder"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^4.2.0",
+    "js-yaml": "^4.1.0",
+    "commander": "^11.0.0",
+    "tinycolor2": "^1.6.0",
+    "glob": "^10.3.0"
+  },
+  "devDependencies": {}
+}

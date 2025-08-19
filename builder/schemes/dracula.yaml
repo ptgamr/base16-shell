@@ -1,0 +1,18 @@
+scheme: "Dracula"
+author: "Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)"
+base00: "282936"  # background
+base01: "3a3c4e"  # lighter background
+base02: "4d4f68"  # selection background
+base03: "626483"  # comments
+base04: "62d6e8"  # dark foreground
+base05: "e9e9f4"  # default foreground
+base06: "f1f2f8"  # light foreground
+base07: "f7f7fb"  # light background
+base08: "ea51b2"  # variables (pink)
+base09: "b45bcf"  # integers (purple)
+base0A: "00f769"  # classes (green)
+base0B: "ebff87"  # strings (light green)
+base0C: "a1efe4"  # support (cyan)
+base0D: "62d6e8"  # functions (light blue)
+base0E: "b45bcf"  # keywords (purple)
+base0F: "00f769"  # deprecated (green)

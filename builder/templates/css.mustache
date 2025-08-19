@@ -1,0 +1,74 @@
+/* {{scheme-name}} by {{scheme-author}} */
+/* Base16 CSS Variables */
+
+:root {
+  --base00: #{{base00}};
+  --base01: #{{base01}};
+  --base02: #{{base02}};
+  --base03: #{{base03}};
+  --base04: #{{base04}};
+  --base05: #{{base05}};
+  --base06: #{{base06}};
+  --base07: #{{base07}};
+  --base08: #{{base08}};
+  --base09: #{{base09}};
+  --base0A: #{{base0A}};
+  --base0B: #{{base0B}};
+  --base0C: #{{base0C}};
+  --base0D: #{{base0D}};
+  --base0E: #{{base0E}};
+  --base0F: #{{base0F}};
+
+  /* Semantic color mappings */
+  --background: var(--base00);
+  --background-alt: var(--base01);
+  --selection: var(--base02);
+  --comment: var(--base03);
+  --foreground-alt: var(--base04);
+  --foreground: var(--base05);
+  --foreground-light: var(--base06);
+  --background-light: var(--base07);
+  --error: var(--base08);
+  --warning: var(--base09);
+  --success: var(--base0B);
+  --info: var(--base0C);
+  --primary: var(--base0D);
+  --secondary: var(--base0E);
+}
+
+.base16-{{scheme-slug}} {
+  background-color: var(--base00);
+  color: var(--base05);
+}
+
+.base16-{{scheme-slug}} .selection {
+  background-color: var(--base02);
+}
+
+.base16-{{scheme-slug}} .comment {
+  color: var(--base03);
+}
+
+.base16-{{scheme-slug}} .error {
+  color: var(--base08);
+}
+
+.base16-{{scheme-slug}} .warning {
+  color: var(--base09);
+}
+
+.base16-{{scheme-slug}} .keyword {
+  color: var(--base0E);
+}
+
+.base16-{{scheme-slug}} .string {
+  color: var(--base0B);
+}
+
+.base16-{{scheme-slug}} .function {
+  color: var(--base0D);
+}
+
+.base16-{{scheme-slug}} .variable {
+  color: var(--base08);
+}

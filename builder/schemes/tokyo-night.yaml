@@ -1,0 +1,18 @@
+scheme: "Tokyo Night"
+author: "Folke Lemaitre"
+base00: "1a1b26"  # background
+base01: "24283b"  # lighter background (status bar)
+base02: "2e3452"  # selection background
+base03: "414560"  # comments, invisibles
+base04: "787c99"  # dark foreground (status bars)
+base05: "a9b1d6"  # default foreground
+base06: "c0caf5"  # light foreground
+base07: "c0caf5"  # light background
+base08: "f7768e"  # variables, tags, links
+base09: "ff9e64"  # integers, boolean, constants
+base0A: "e0af68"  # classes, bold, search
+base0B: "9ece6a"  # strings, inherited classes
+base0C: "7dcfff"  # support, regexp, escape chars
+base0D: "7aa2f7"  # functions, methods, headings
+base0E: "bb9af7"  # keywords, storage
+base0F: "db4b4b"  # deprecated, embedded tags

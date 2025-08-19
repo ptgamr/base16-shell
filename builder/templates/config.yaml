@@ -1,0 +1,11 @@
+shell:
+  extension: sh
+  output: shell
+
+css:
+  extension: css
+  output: css
+
+vim:
+  extension: vim
+  output: vim
